@@ -64,7 +64,7 @@ void insertRight(node *inode, node *child) {
 }
 
 void deleteBoth(node *inode) {
-  if (!inode) {
+  if (inode) {
     deleteBoth(inode->left);
     deleteBoth(inode->right);
 
