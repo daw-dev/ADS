@@ -14,7 +14,6 @@ typedef node *tree;
 
 void insert(tree *t, int k);
 void removeValue(tree *t, int k);
-int isBST1(tree t);
 int isBST(tree t);
 int isSummationTree(tree t);
 void queryRange(tree t, int a, int b);
